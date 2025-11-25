@@ -1,0 +1,11 @@
+[project]
+name = "pdf-quiz-agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+dependencies = [
+    "chainlit",
+    "openai-agents",
+    "pypdf",
+    "python-dotenv",
+]
